@@ -1,12 +1,12 @@
 module.exports = {
-  title: 'ExampleBook',
+  title: 'BookExample',
   tagline: 'The tagline of my site',
   url: 'https://demuyan.github.io',
-  baseUrl: '/example_book/',
+  baseUrl: '/book_example/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'demuyan', // Usually your GitHub org/user name.
-  projectName: 'example_book', // Usually your repo name.
+  projectName: 'book_example', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Example Book',
@@ -18,7 +18,7 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'ExampleBook 123456',
+          label: 'BookExample 123456',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
